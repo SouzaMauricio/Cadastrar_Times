@@ -135,3 +135,7 @@ function UpdatePlayer(cod){
         id = cod;
     });
 }
+
+function Cancelar(){
+    location.reload();
+}

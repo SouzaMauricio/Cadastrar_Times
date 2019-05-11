@@ -36,7 +36,8 @@
                     ?>
                 <select>
                 <br><br>
-                <input type="submit" id="submit" value="Cadastrar">
+                <input type="submit" id="submit" value="Cadastrar">&nbsp&nbsp
+                <button onclick="Cancelar()">Cancelar</button>
             </form>
 
             <h2>Jogadores Cadastrados</h2>

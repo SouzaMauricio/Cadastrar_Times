@@ -28,7 +28,8 @@
                     <br><br>
                     <input type="date" id="dateFundation" name="dateFundation">
                     <br><br>
-                    <input type="submit" id="submit" value="Cadastrar">
+                    <input type="submit" id="submit" value="Cadastrar">&nbsp&nbsp
+                    <button onclick="Cancelar()">Cancelar</button>
                 </form>
             <div>
             <h2>Times cadastrados</h2>
@@ -42,4 +43,4 @@
             <div>
         </center>
     <body>
-</html> 
+</html>

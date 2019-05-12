@@ -1,7 +1,7 @@
 <?php
+    date_default_timezone_set('America/Sao_Paulo');
     require_once "../model/ModelTeam.php";
     require_once "../beans/BeansTeam.php";
-    
     $team = new BeansTeam;
     $registration = new ModelTeam;
 
@@ -45,6 +45,12 @@
         }
     }else{
         echo "Data inválida!";
+        die();
+    }
+    //Validate against future date
+    $date = date('Y-m-d');
+    if($team->get_dateFundation() > $date){
+        echo "Não é permitido data futura!";
         die();
     }
     

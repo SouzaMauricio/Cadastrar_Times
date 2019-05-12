@@ -10,7 +10,8 @@
     $player->set_lastName(ltrim(rtrim(preg_replace('/[^[:alpha:] _çÇ123456789éÉêÊáÁàÀâÂóÓíÍôÔúÚüÜ]/', '',$_POST['lastName']))));
 
     $player->set_shirtNumber(ltrim(rtrim((int)$_POST['shirtNumber'])));
-    $player->set_team(ltrim(rtrim((int)$_POST['team'])));
+    if(isset($_POST['team']))
+        $player->set_team(ltrim(rtrim((int)$_POST['team'])));
 
     $action = $_POST['action'];
 

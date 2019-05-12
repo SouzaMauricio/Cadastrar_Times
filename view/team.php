@@ -2,7 +2,7 @@
 <html lang="pt-br">
     <head>
         <meta charset="utf-8">
-        <title>Team Registration</title>
+        <title>Cadastro de Times</title>
         <!-- JQuery -->	
         <script rel="preload" src="../js/jquery-2.2.4.js" as="script"></script>
         <!--Functions JS-->
@@ -18,7 +18,8 @@
     </head>
     <body>
         <center>
-            <a href="../" class="title">Home<a>
+            <a href="../" class="title">Home | <a>
+            <a href="player.php" class="title">Cadastro de Jogador</a>
             <div>
                 <form method="POST" id="frmTeam">
                     <h2>Cadastro de Times</h2>
@@ -26,6 +27,7 @@
                     <br><br> 
                     <input type="Text" id="shelColor" name="shelColor" placeholder="Cor do Escudo" required>
                     <br><br>
+                    <label>Data de fundação</label><br>
                     <input type="date" id="dateFundation" name="dateFundation">
                     <br><br>
                     <input type="submit" id="submit" value="Cadastrar">&nbsp&nbsp

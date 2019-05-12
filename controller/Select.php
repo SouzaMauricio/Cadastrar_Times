@@ -83,7 +83,17 @@
         function SelectAllTeamsOptions(){
             require_once "../model/ModelTeam.php";
             $team = new ModelTeam;
-            return $teams = $team->SelectAll();
+            $teams = $team->SelectAll();
+            $data = "";
+            if($teams != "0"){
+                while($row = mysqli_fetch_array($teams)){
+                    $data .= '<option value="' . $row['ID'] . '" >' . utf8_decode($row["TEAM_NAME"]) . '</option>';
+                }
+            }
+            else{
+                $data .= '<option>Nenhum Time Cadastrado</option>';
+            }
+            return $data;
         }            
     }
 ?>

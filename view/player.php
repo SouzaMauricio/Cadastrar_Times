@@ -2,7 +2,7 @@
 <html lang="pt-br">
     <head>
         <meta charset="utf-8">
-        <title>Player Registration</title>
+        <title>Cadastro de Jogadores</title>
         <!-- JQuery -->	
         <script rel="preload" src="../js/jquery-2.2.4.js" as="script"></script>
         <!--Functions JS-->
@@ -19,7 +19,9 @@
     </head>
     <body>
         <center>
-            <a href="../" class="title">Home<a>
+            <a href="../" class="title">Home |<a>
+            <a href="team.php" class="title">Cadastro de Times</a>
+            <br>
             <form method="POST" id="frmPlayer">
                 <h2>Cadastro de Jogadores</h2>
                 <input type="Text" name="name" id="name" placeholder="Nome do Jogador" required>
@@ -30,9 +32,7 @@
                 <br><br>
                 <select name="team" id="team">
                     <?php
-                        while($row = mysqli_fetch_array($teams)){
-                            echo '<option value="' . $row['ID'] . '" >' . utf8_decode($row["TEAM_NAME"]) . '</option>';
-                        }
+                        echo $teams;
                     ?>
                 <select>
                 <br><br>

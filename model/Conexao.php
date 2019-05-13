@@ -6,7 +6,7 @@
 			$bdservidor = '127.0.0.1';
 			$bdusuario = 'root';
 			$bdsenha = '';
-			$bdbanco = 'MOBLY';
+			$bdbanco = 'DB_MOBLY_TEAMS';
 			try{
 				$conexao = @mysqli_connect($bdservidor, $bdusuario, $bdsenha, $bdbanco) or die("Não foi possivel conectar");
 

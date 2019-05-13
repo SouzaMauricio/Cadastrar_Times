@@ -12,7 +12,7 @@ Sistema Web que permite cadastrar, listar, deletar e atualizar times e jogadores
 <h3>Opcional:</h3>
 <p>&nbsp&nbsp&nbsp&nbsp-Ter o Workbench instalado na máquina.</p>
 <h3>Como rodar a aplicação:</h3>
-<p>&nbsp&nbsp&nbsp&nbspPara rodar a aplicação, primeiramente faça download do projeto, que será baixado como um arquivo zipado, é necessário que você exporte o projeto desse arquivo zipado. Após a extração, vamos primeiro à criação do banco.</p>
+<p>&nbsp&nbsp&nbsp&nbspPara rodar a aplicação, primeiramente faça download do projeto, que será baixado como um arquivo zipado, é necessário que você exporte o projeto desse arquivo zipado. Após a extração a pasta "Cadastrar_Times-master" irá aparecer, é necessário que a pasta esteja com esse nome. Vamos primeiro à criação do banco.</p>
 <h4>Criando o banco de dados:</h4>
 <p>&nbsp&nbsp&nbsp&nbspPara criar o banco de dados no seu servidor local: identifique o script do bando de dados na pasta do projeto. O nome está como "SCRIPT.sql".</p>
 <p>&nbsp&nbsp&nbsp&nbspPara criar o banco a partir do script, você pode utilizar o phpMyAdmin ou o Worckbench por exemplo. Segue abaixo um passo a passo de como subir em cada caso.</p>
@@ -33,7 +33,7 @@ Sistema Web que permite cadastrar, listar, deletar e atualizar times e jogadores
 <h4>Rodando a aplicação:</h4>
 <p>&nbsp&nbsp&nbsp&nbsp-Com o projeto baixado e exportado do zip, vá até o local do download e recorte/copie a pasta toda;<br>
 &nbsp&nbsp&nbsp&nbsp-Com o XAMPP instalado na máquina, localize e entre onde está a pasta. Ao localizá-la, busque e entre na pasta "htdocs". Estando nela, cole a pasta do projeto.<br>
-&nbsp&nbsp&nbsp&nbsp-Agora, com o banco criado e o projeto na pasta "htdocs" do XAMPP, já podemos rodar a aplicação. Para isso entre no seu navegador e na barra de pesquisa digite "localhost/mobly/index.php".<br>
+&nbsp&nbsp&nbsp&nbsp-Agora, com o banco criado e o projeto na pasta "htdocs" do XAMPP, já podemos rodar a aplicação. Para isso entre no seu navegador e na barra de pesquisa digite "localhost/Cadastrar_Times-master/index.php".<br>
 &nbsp&nbsp&nbsp&nbspPronto!<br>
 &nbsp&nbsp&nbsp&nbspO sistema já esta pronto para uso.</p>
 <h3>Como utilizar:</h3>

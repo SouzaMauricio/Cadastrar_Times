@@ -12,10 +12,10 @@ Sistema Web que permite cadastrar, listar, deletar e atualizar times e jogadores
 <h3>Opcional:</h3>
 <p>&nbsp&nbsp&nbsp&nbsp-Ter o Workbench instalado na máquina.</p>
 <h3>Como rodar a aplicação:</h3>
-<p>&nbsp&nbsp&nbsp&nbspPara rodar a aplicação, primeiramente faça download do projeto, que será baixado como um arquivo zipado; é necessário que você exporte o projeto desse arquivo zipado. Após a extração, vamos primeiro à criação do banco.</p>
+<p>&nbsp&nbsp&nbsp&nbspPara rodar a aplicação, primeiramente faça download do projeto, que será baixado como um arquivo zipado, é necessário que você exporte o projeto desse arquivo zipado. Após a extração, vamos primeiro à criação do banco.</p>
 <h4>Criando o banco de dados:</h4>
 <p>&nbsp&nbsp&nbsp&nbspPara criar o banco de dados no seu servidor local: identifique o script do bando de dados na pasta do projeto. O nome está como "SCRIPT.sql".</p>
-<p>&nbsp&nbsp&nbsp&nbspPara criar o banco a partir do script, você pode utilizar o phpMyAdmin ou o Worckbench. Segue abaixo um passo a passo de como subir em cada caso.</p>
+<p>&nbsp&nbsp&nbsp&nbspPara criar o banco a partir do script, você pode utilizar o phpMyAdmin ou o Worckbench por exemplo. Segue abaixo um passo a passo de como subir em cada caso.</p>
 <h4>phpMyAdmin:</h4>
 <p>&nbsp&nbsp&nbsp&nbsp-Com o XAMPP instalado no computador, abra-o e clique em "Start" nas opções de "Apache" e "MySql";<br>
 &nbsp&nbsp&nbsp&nbsp-Acesse seu navegador e na barra de pesquisa digite "localhost" e clique em "Enter";<br>
